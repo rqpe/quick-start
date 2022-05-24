@@ -1,1 +1,1 @@
-## Quick Strat Guide
+## Quick Start Guide
