@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
+\begin{document}
+
+\title{Make a Repository}
+
+\maketitle
+
+
+A repository is the data storage location of your outputted publication.
+
+
+The reposoitories use Git\footnote{Git is open-source software that both GitHub and GitLab are built on - think of a time machine for code and all that could do.} technology which allows for versioning of your publication.
+
+
+We save to GitHub and GitLab\autocite{PerkelJeffrey2016} - including GitLab.com or another hosted instance of the GitLab Community Edition which is open-source software.
+
+\begin{figure}
+\scaledgraphics{d095295c-b3e6-4e52-be14-226bdafee26e.png}{0.5}
+\caption*{Figure 1: Octocat}\label{F44428261}
+\end{figure}
+
+\begin{figure}
+\scaledgraphics{f729a128-33fa-4ec4-92b1-bf0eade111b9.jpg}{0.5}
+\caption*{Figure 2: GitLab}\label{F8019541}
+\end{figure}
+
+
+\printbibliography[title={Bibliography}]
+\end{document}
