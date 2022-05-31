@@ -30,24 +30,28 @@
       </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>Make a Repository</text></navLabel>
+      <navLabel><text>Layout Design</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
     </navPoint>
     <navPoint id="t_3_0-3">
-      <navLabel><text>Create a Book</text></navLabel>
+      <navLabel><text>Make a Repository</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
     </navPoint>
     <navPoint id="t_4_0-4">
-      <navLabel><text>Invite Your Team</text></navLabel>
+      <navLabel><text>Create a Book</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
     </navPoint>
     <navPoint id="t_5_0-5">
-      <navLabel><text>Publish Multi-format!</text></navLabel>
+      <navLabel><text>Invite Your Team</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
     </navPoint>
     <navPoint id="t_6_0-6">
-      <navLabel><text>Enhanced Publications</text></navLabel>
+      <navLabel><text>Publish Multi-format!</text></navLabel>
       <content src="document-6.xhtml#_6_0" />
+    </navPoint>
+    <navPoint id="t_7_0-7">
+      <navLabel><text>Enhanced Publications</text></navLabel>
+      <content src="document-7.xhtml#_7_0" />
     </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
