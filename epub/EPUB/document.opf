@@ -4,14 +4,22 @@
     <dc:identifier id="fidus">109</dc:identifier>
     <dc:title>Quick Start Guide</dc:title>
     <dc:creator>
-      Simon Worthington
+      See: contributor.cff
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-05-24T18:56:04Z</meta>
-    <dc:date>2022-05-24</dc:date>
+    <meta property="dcterms:modified">2022-06-02T10:13:16Z</meta>
+    <dc:date>2022-06-02</dc:date>
+    <dc:rights>Commons: Attribution-ShareAlike 4.0 International</dc:rights>
+    <dc:publisher>The Publishing Consortium</dc:publisher>
+    <dc:subject>collaborative editor</dc:subject>
+    <dc:subject>secure system</dc:subject>
+    <dc:subject>multi-format publishing</dc:subject>
+    <dc:subject>automatic typesetting</dc:subject>
+    <dc:subject>publishing pipeline</dc:subject>
+    <dc:subject>open source</dc:subject>
+    <dc:subject>enhanced publication</dc:subject>
   </metadata>
   <manifest>
-    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
     <item id="t1" href="document-1.xhtml" media-type="application/xhtml+xml" />
     <item id="t2" href="document-2.xhtml" media-type="application/xhtml+xml" />
@@ -22,9 +30,8 @@
     <item id="t7" href="document-7.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="cover-image" properties="cover-image" href="e1d0482b-48cf-4a26-b320-898874375236.jpg" media-type="image/jpeg" />
-    <item id="img1" href="images/d095295c-b3e6-4e52-be14-226bdafee26e.png" media-type="image/png" />
-    <item id="img2" href="images/f729a128-33fa-4ec4-92b1-bf0eade111b9.jpg" media-type="image/jpeg" />
+    <item id="img0" href="images/d095295c-b3e6-4e52-be14-226bdafee26e.png" media-type="image/png" />
+    <item id="img1" href="images/f729a128-33fa-4ec4-92b1-bf0eade111b9.jpg" media-type="image/jpeg" />
     <item id="font0" href="css/media/NotoSans-Italic.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/NotoSans-Regular.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/NotoSans-Medium.ttf" media-type="font/sfnt" />
@@ -41,7 +48,6 @@
     <item id="ncx" href="document.ncx" media-type="application/x-dtbncx+xml" />
   </manifest>
   <spine toc="ncx">
-    <itemref idref="cover" linear="no" />
     <itemref idref="titlepage" linear="yes" />
     <itemref idref="t1" linear="yes" />
     <itemref idref="t2" linear="yes" />
