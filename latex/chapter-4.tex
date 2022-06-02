@@ -1,12 +1,69 @@
 \documentclass{article}
 
+\usepackage{caption}
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
-\title{Create a Book}
+\title{Step 2: Create a Book}
 
 \maketitle
 
 
+Create placeholder documents for your book
 
+\begin{figure}
+\scaledgraphics{9e5d1d14-244e-4d55-b1f9-effb37b619e9.png}{1}
+\caption*{Figure 1: Adding documents to be used in your book}\label{F35194901}
+\end{figure}
+
+\begin{figure}
+\scaledgraphics{2be7082d-cf81-4659-be99-15f41a555f0a.png}{1}
+\caption*{Figure 2: Edit document and add a title}\label{F72135581}
+\end{figure}
+
+
+
+
+
+Create a book
+
+\begin{figure}
+\scaledgraphics{e38b98ce-9984-4980-9b46-52a2a0acdbe5.png}{1}
+\caption*{Figure 3: Book section, add your book here}\label{F3646981}
+\end{figure}
+
+\begin{figure}
+\scaledgraphics{8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png}{1}
+\caption*{Figure 4: Add book information}\label{F63655341}
+\end{figure}
+
+
+Add documents to your book
+
+\begin{figure}
+\scaledgraphics{1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png}{1}
+\caption*{Figure 5: Add your documents to the book}\label{F21078281}
+\end{figure}
+
+
+
+
+
+  
 
 \end{document}

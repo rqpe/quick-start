@@ -1,5 +1,22 @@
 \documentclass{article}
 
+\usepackage{caption}
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
 \title{Welcome!}
@@ -9,11 +26,24 @@
 
 This is a quickstart guide for you to learn about how to publishing a book.
 
+\begin{figure}
+\scaledgraphics{b3bc6ba5-db38-4ec8-89db-45c029fdb485.png}{1}
+\label{F98934631}
+\end{figure}
 
-We'll be using a real-time colleabortive word processor and publishing as multi-format Git storage. You can distribute your book as: A website, paged website, PDF, print-on-demand, eBook, and more.
+
+We'll be using a real-time collabortive word processor, publishing as multi-format, all using secure self-hosted open-source software. You can distribute your book as: A website, paged website, PDF, print-on-demand, eBook, and more.
 
 
-As a bonus we'll throw in some of the latest enhanced publishing features from the world of open science to have create greater visiibility and resuse of your book.
+As a bonus we'll throw in some of the latest 'enhanced publication' features from the world of open science to create greater visibility and resuse of your book.
+
+
+Our commitment to security and privacy to keeping you personal information and content secure: The system can be self-hosted, is open-source, full GDPR / CCPA compliance, uses 2 factor authentication and OAuth, and secure revision histories using cryptographic IDs and persistent IDs so your readers always know they are on the latest book version. 
+
+\begin{figure}
+\scaledgraphics{60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png}{0.5}
+\label{F45597451}
+\end{figure}
 
 
 \subsection{Features include}\label{H2087393}
@@ -26,7 +56,7 @@ As a bonus we'll throw in some of the latest enhanced publishing features from t
 \item Multi-format outputs.
 
 
-\item Automatic layouts, so no time consuming tyoesetting.
+\item Automatic layouts, so no time consuming typesetting.
 
 
 \item Single-source publishing: Make an edit and distribute to all formats.
@@ -35,7 +65,7 @@ As a bonus we'll throw in some of the latest enhanced publishing features from t
 \item Citation manager.
 
 
-\item Open-source software
+\item Open-source software.
 
 
 \end{itemize}
@@ -56,11 +86,34 @@ As a bonus we'll throw in some of the latest enhanced publishing features from t
 \item Publishing your book. 
 
 
-\item Adding enhanced publishing features to make transform your publication into a living book.
+\item Adding 'enhanced publication' features to  transform your publication into a living book.
 
 
 \end{enumerate}
 
+\subsection{The steps used to create a book}\label{H3159430}
 
 
+\begin{figure}
+\scaledgraphics{fec439eb-c4d6-4587-a4a2-affde7c45586.png}{0.25}
+\label{F18710661}
+\end{figure}
+
+\begin{enumerate}
+\item Create a repository
+
+
+\item Create a book
+
+
+\item Ivite team
+
+
+\item Multi-format publishing
+
+
+\item Enhanced publications
+
+
+\end{enumerate}
 \end{document}

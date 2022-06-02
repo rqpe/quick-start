@@ -7,7 +7,7 @@
       See: contributor.cff
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-06-02T10:13:16Z</meta>
+    <meta property="dcterms:modified">2022-06-02T14:28:14Z</meta>
     <dc:date>2022-06-02</dc:date>
     <dc:rights>Commons: Attribution-ShareAlike 4.0 International</dc:rights>
     <dc:publisher>The Publishing Consortium</dc:publisher>
@@ -30,8 +30,16 @@
     <item id="t7" href="document-7.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="img0" href="images/d095295c-b3e6-4e52-be14-226bdafee26e.png" media-type="image/png" />
-    <item id="img1" href="images/f729a128-33fa-4ec4-92b1-bf0eade111b9.jpg" media-type="image/jpeg" />
+    <item id="img0" href="images/b3bc6ba5-db38-4ec8-89db-45c029fdb485.png" media-type="image/png" />
+    <item id="img1" href="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png" media-type="image/png" />
+    <item id="img2" href="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png" media-type="image/png" />
+    <item id="img3" href="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png" media-type="image/png" />
+    <item id="img4" href="images/9e5d1d14-244e-4d55-b1f9-effb37b619e9.png" media-type="image/png" />
+    <item id="img5" href="images/2be7082d-cf81-4659-be99-15f41a555f0a.png" media-type="image/png" />
+    <item id="img6" href="images/e38b98ce-9984-4980-9b46-52a2a0acdbe5.png" media-type="image/png" />
+    <item id="img7" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
+    <item id="img8" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
+    <item id="img9" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
     <item id="font0" href="css/media/NotoSans-Italic.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/NotoSans-Regular.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/NotoSans-Medium.ttf" media-type="font/sfnt" />

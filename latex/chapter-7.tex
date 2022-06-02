@@ -1,12 +1,112 @@
 \documentclass{article}
 
+\usepackage{hyperref}
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
-\title{Enhanced Publications}
+\title{Step 5: Enhanced Publications}
 
 \maketitle
 
 
+To enable a publication to findable and have greater impact modern publishing features of 'enhanced publications' developed by in the area of open science need to be used. Open science practice is exemplified by the FAIR Principles \autocite{GOFAIR2016} and fully outlined in the UNESCO Open Science Recommendations \autocite{UNESCO2021}.
+
+\begin{figure}
+\scaledgraphics{1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png}{0.5}
+\label{F3240941}
+\end{figure}
 
 
+These are:
+
+\begin{itemize}
+\item Accessibility\protect\footnotemark{}
+
+
+\item Plain language summaries\protect\footnotemark{}
+
+
+\item Multilingual and tranlation ready
+
+
+\item Accessible metadata
+
+
+\item Machine readable
+
+
+\item Open access
+
+
+\item Open data
+
+
+\item Persistent identifiers - for publications, for related entities (persons, organisations, funders, etc.), and for digital objects.
+
+
+\item Linked open data
+
+
+\item Controlled vocabularies and schemas
+
+
+\item Open standards
+
+
+\item Interoperable formats
+
+
+\item Software citation
+
+
+\item Expanded roles and attribution
+
+
+\item Open and accessible metadata
+
+
+\item Using a landing page with all publication parts as human readable and machine readable
+
+
+\item Accessible metadata
+
+
+\item Using inventory packaging
+
+
+\item Open citations
+
+
+\end{itemize}\addtocounter{footnote}{-2}\stepcounter{footnote}
+\footnotetext{Key accessibilty guidelines for the web are: \href{https://www.w3.org/TR/WCAG21/}{WCAG 2.1} (Web Content Accessibility Guidelines) Web Content Accessibility Guidelines (WCAG) 2.1 covers a wide range of recommendations for making Web content more accessible.
+
+
+When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
+
+
+Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility. (W3C Web Accessibiliy Initiative)}\stepcounter{footnote}
+\footnotetext{Publication-associated plain language summaries are brief, jargon-free summaries of scientific publications. \href{https://doi.org/10.1080/03007995.2022.2058812}{https://doi.org/10.1080/03007995.2022.2058812}}
+
+\printbibliography[title={Bibliography}]
 \end{document}
