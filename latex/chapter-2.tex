@@ -2,243 +2,50 @@
 
 \usepackage{hyperref}
 \usepackage{caption}
-\usepackage{tabu}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
-\title{Layout Design}
+\title{Step 1: Make a Repository}
 
 \maketitle
 
 
-Oragnisationsname - \textbf{LOGO ARTWORK}
+A repository is the data storage location of your outputted publication.
 
 
-Here we will cover publication layout design, using: Fidus Writer, Vivliostyle, and Docsify.
+The reposoitories use Git\footnote{Git is open-source software that both GitHub and GitLab are built on – think of it as a time machine for code and all that could do.} technology which allows for versioning of your publication with crytographic IDs.
 
 
-Where possible \emph{Chicago Manual of Style} (CMOS) \href{https://www.chicagomanualofstyle.org/16/ch01/ch01_toc.html}{1: Books and Journals} naming conventions and guidance are used. CMOS section reference numbers will be inserted in the text, e.g., (1.5). NB: CMOS is not open, but available on a 30 day trial, and open style guide would be used if one as thorough was available.
+We save to GitHub and GitLab\autocite{PerkelJeffrey2016} – including \href{GitLab.com}{GitLab.com} or another self-hosted instance of the GitLab Community Edition which is open-source software.
 
+\begin{figure}
+\scaledgraphics{5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png}{0.5}
+\caption*{Octocat: GitHub's mascot}\label{F44428261}
+\end{figure}
 
-\subsection{Output formats}\label{H8118386}
 
 
 
-Output formats and which carry: Page numbers, Running Head and Feet, Static Header content. And where does the content orginatate.
 
-
-We need to be able to toggle on or off the parts below on specific pages: for a chapter, blank pages, Tocs, etc
-
-\begin{table}
-\caption*{Tabelle 1: Header and Footer - Output formats and content. Labels yes, no, n / a (not applicable) - indicate if we want to use content in the output format}\label{T63104901}
-
-\begin{tabu} to \textwidth { |X|X|X|X|X| }
-\hline
-
-
-
-Output format / Content (be able to apply styles to sub components) & Web scolling  & Web paged (vivliostyle.js Canary) & Fidus PDF exporter (vivliostyle.js v stable?) & EPUB 3.0
- \\
-
-
-Page number (Folio), plus multilingual label & n / a & yes & yes & n /a?
- \\
-
-
-Running head / feet - (Book title; Chapter title) & n / a & yes & yes & n /a?
- \\
-
-
-Static header / footer & Place in left menu & yes & yes & n /a?
- \\
-
-
-Date (custom formats) & Place in left menu & yes & yes & n /a?
- \\
-
-
-Version (From Fidus book version No.) & Place in left menu & yes & yes & n /a?
- \\
-\hline
-
-\end{tabu}\end{table}
-
-
-
-
-
-\subsection{Page Numbers (Folios) and Running Heads / Feet}\label{H6636642}
-
-
-\begin{enumerate}
-\item Page Numbers, or as their other name folios. (1.5)
-
-
-Q. Adding a multilingual label: Seite, Página, Page, etc. A. 
-
-
-Q. Adding a label: Seite. A. 
-
-
-Q. What types of styling can be added to page numbers. A. 
-
-
-Q. Page number options. A.
-
-
-\item Running Heads
-
-
-Running Heads refers to signpost text placed at the top of the page, if used at the bottom they are called running feet. We will use running heads for all locations in thie documentation.  
-
-
-The working assumption here is that Book Information fields can be used somehow.
-
-
-Eventually we need some way that authors and editors can add this information, but we'd be happy to a work around in the meantime.
-
-\begin{itemize}
-\item In UHTML only the book title can be used in running heads.
-
-
-\item In multi-file HTML and uncompressed EPUB book title and chapter title can be used in running heads.
-
-
-\end{itemize}
-
-Q. What types of styling can be added to Running Heads? Can it be localised per component?
-
-
-Q. Can fixed content be added to the running heads, and running feat. For example:
-
-\begin{enumerate}
-\item Running head
-
-\begin{enumerate}
-\item Organisation name as text with styling.
-
-
-\item Organisation logo
-
-
-\end{enumerate}
-
-\item Running feat
-
-\begin{enumerate}
-\item Date in a custom format - for example: Month YYYY
-
-
-\item Three lines of text with emphasis on some parts and URL links on other. Like the example below, pretty much as Word allows a footer. Example:
-
-
-\textbf{Herausgeber:} Oragnisationsname, Abteilung, Adresse.
-
-
-\textbf{Nachdruck/Weitergabe} mit Quellenangabe gestattet, ausgenommen zu gewerblichen Zwecken.
-
-
-\textbf{Kontakt:} Telefon 000 000-00000 | E-Mail: \href{mailto:info@org.tld}{name@oragnisationsname.tld}
-
-
-\item Static Header and Footer content
-
-
-Some content mentioned above could also be included as static header and footer content: Logo in the header; contact information in the footer.
-
-
-Q. How do can we add static content in the header and footer?
-
-
-\end{enumerate}
-
-\end{enumerate}
-
-\end{enumerate}
-
-\subsection{Front cover / back cover - options, options for different formats}\label{H2066845}
-
-
-
-\subsection{Image full width}\label{H4254322}
-
-
-
-\subsection{Doc template for full page image, or multi-page image section}\label{H160759}
-
-
-
-\subsection{Table of contents}\label{H1035282}
-
-
-
-\subsection{Tables}\label{H2657285}
-
-
-
-\subsection{Figures with captions, and figure list}\label{H2649195}
-
-
-
-\subsection{Images with no captions}\label{H3111694}
-
-
-
-\subsection{Images 100\%, images 50\%}\label{H1834260}
-
-
-
-\subsection{Notes}\label{H8583149}
-
-
-
-\subsection{References}\label{H6587634}
-
-
-
-\subsection{The autogenerated book information display}\label{H2658073}
-
-
-
-\subsection{Front matter}\label{H2520043}
-
-
-
-\subsection{Designing in Fidus Writer}\label{H9146823}
-
-
-
-\subsection{Setting up doc templates, doc styles, and book styles. Plus groups permissions}\label{H5306137}
-
-
-
-\subsection{Local development styling environment setup - Vivlio, Docsify}\label{H9966663}
-
-
-
-\subsection{Using GitHub and GitLab}\label{H2916391}
-
-
-
-\subsection{Using and creating GitHub Templates}\label{H187677}
-
-
-
-\subsection{Designing using Vivliostyle JS and Vivliostyle CLI}\label{H8096298}
-
-
-
----
-
-
-Mai 2022
-
-
-\textbf{Herausgeber:} Oragnisationsname, Abteilung, Adresse.
-
-
-\textbf{Nachdruck/Weitergabe} mit Quellenangabe gestattet, ausgenommen zu gewerblichen Zwecken.
-
-
-\textbf{Kontakt:} Telefon 000 000-00000 | E-Mail: \href{name@oragnisationsname.tld}{name@oragnisationsname.tld}.
-
+\printbibliography[title={Bibliography}]
 \end{document}
