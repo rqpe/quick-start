@@ -4,13 +4,13 @@
     <dc:identifier id="fidus">109</dc:identifier>
     <dc:title>Quick Start Guide</dc:title>
     <dc:creator>
-      See: contributor.cff
+      The Authors
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-06-02T14:53:22Z</meta>
-    <dc:date>2022-06-02</dc:date>
+    <meta property="dcterms:modified">2022-06-13T10:29:45Z</meta>
+    <dc:date>2022-06-13</dc:date>
     <dc:rights>Commons: Attribution-ShareAlike 4.0 International</dc:rights>
-    <dc:publisher>The Publishing Consortium</dc:publisher>
+    <dc:publisher>The Publisher</dc:publisher>
     <dc:subject>collaborative editor</dc:subject>
     <dc:subject>secure system</dc:subject>
     <dc:subject>multi-format publishing</dc:subject>
@@ -39,17 +39,23 @@
     <item id="img7" href="images/8a7e23ca-ece1-4c13-8192-e6b2ff7e5fc0.png" media-type="image/png" />
     <item id="img8" href="images/1a7c5c9b-9451-4bd9-a21f-c0897cfb9d07.png" media-type="image/png" />
     <item id="img9" href="images/1f9fd912-8fb6-4e4e-9ecb-e91220e21b85.png" media-type="image/png" />
-    <item id="font0" href="css/media/NotoSans-Italic.ttf" media-type="font/sfnt" />
-    <item id="font1" href="css/media/NotoSans-Regular.ttf" media-type="font/sfnt" />
-    <item id="font2" href="css/media/NotoSans-Medium.ttf" media-type="font/sfnt" />
-    <item id="font3" href="css/media/NotoSans-SemiBold.ttf" media-type="font/sfnt" />
-    <item id="font4" href="css/media/NotoSans-SemiBoldItalic.ttf" media-type="font/sfnt" />
-    <item id="font5" href="css/media/NotoSerif-Regular.ttf" media-type="font/sfnt" />
-    <item id="font6" href="css/media/NotoSerif-Bold.ttf" media-type="font/sfnt" />
-    <item id="font7" href="css/media/NotoSerif-BoldItalic.ttf" media-type="font/sfnt" />
-    <item id="font8" href="css/media/NotoSerif-Italic.ttf" media-type="font/sfnt" />
+    <item id="font0" href="css/media/FiraSans-Regular.ttf" media-type="font/sfnt" />
+    <item id="font1" href="css/media/FiraSans-Medium.ttf" media-type="font/sfnt" />
+    <item id="font2" href="css/media/FiraSans-MediumItalic.ttf" media-type="font/sfnt" />
+    <item id="font3" href="css/media/FiraSans-SemiBold.ttf" media-type="font/sfnt" />
+    <item id="font4" href="css/media/FiraSans-SemiBoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font5" href="css/media/FiraSans-Italic.ttf" media-type="font/sfnt" />
+    <item id="font6" href="css/media/FiraSans-Light.ttf" media-type="font/sfnt" />
+    <item id="font7" href="css/media/FiraSans-LightItalic.ttf" media-type="font/sfnt" />
+    <item id="font8" href="css/media/FiraSans-Bold.ttf" media-type="font/sfnt" />
+    <item id="font9" href="css/media/FiraSans-BoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font10" href="css/media/FiraSansCondensed-SemiBold.ttf" media-type="font/sfnt" />
+    <item id="font11" href="css/media/FiraSansCondensed-Regular.ttf" media-type="font/sfnt" />
+    <item id="font12" href="css/media/FiraSansCondensed-Medium.ttf" media-type="font/sfnt" />
+    <item id="font13" href="css/media/FiraSansCondensed-Light.ttf" media-type="font/sfnt" />
+    <item id="font14" href="css/media/FiraSansCondensed-ExtraLight.ttf" media-type="font/sfnt" />
     <item id="css0" href="css/document.css" media-type="text/css" />
-    <item id="css1" href="css/procip.css" media-type="text/css" />
+    <item id="css1" href="css/gamt-pdf.css" media-type="text/css" />
 
     <!-- ncx included for 2.0 reading system compatibility: -->
     <item id="ncx" href="document.ncx" media-type="application/x-dtbncx+xml" />
