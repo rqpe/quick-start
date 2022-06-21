@@ -88,21 +88,21 @@
         text-align: center;
       }
     </style>
-    <link type="text/css" rel="stylesheet" href="css/gamt-pdf.css" />
+    <link type="text/css" rel="stylesheet" href="css/sage.css" />
   </head>
   <body class="user-contents">
     <div class="titlepage frontmatter">
       <h1 class="booktitle">Quick Start Guide</h1>
       <h2 class="booksubtitle">Publishing Pipeline</h2>
-      <h3 class="bookauthor">von The Authors</h3>
+      <h3 class="bookauthor">by The Authors</h3>
       <h4 class="bookversion">Pre-release v0.1</h4>
     </div>
     <div class="copyrightpage frontmatter">
-      <p>Publiziert von: The Publisher</p>
-      <p>Zuletzt verändert: 2022-06-13</p>
-      <p>Erstellt: 2022-05-24</p>
-      <p>Sprache: Deutsch</p>
-      <p>Erstellt von: User Name</p>
+      <p>Published by: The Publisher</p>
+      <p>Last Updated: 2022-06-21</p>
+      <p>Created: 2022-05-24</p>
+      <p>Language: English</p>
+      <p>Created by: User Name</p>
     </div>
     <div class="tocpage frontmatter">
       <nav role="doc-toc">
@@ -112,6 +112,11 @@
               Welcome!
             </a>
             <ol>
+              <li>
+                <a href="#H584803">
+                  Digital sovereignty
+                </a>
+              </li>
               <li>
                 <a href="#H2087393">
                   Features include
@@ -124,16 +129,26 @@
               </li>
               <li>
                 <a href="#H3159430">
-                  The steps used to create a book
+                  The steps used to create a publication
                 </a>
               </li>
             </ol>
           </li>
           <li>
             <a href="#_2_0">
-              Step 1: Make a Repository
+              Step 1: Make a Repository
             </a>
             <ol>
+              <li>
+                <a href="#H4018151">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#H1473428">
+                  Step-by-step guide
+                </a>
+              </li>
               <li>
                 <a href="#_2_1">
                   Bibliography
@@ -168,27 +183,41 @@
               </li>
             </ol>
           </li>
+          <li>
+            <a href="#_7_0">
+              Imprint
+            </a>
+            <ol>
+              <li>
+                <a href="#H8275517">
+                  Open licencing
+                </a>
+              </li>
+            </ol>
+          </li>
         </ol>
       </nav>
     </div>
     <div class="article-part article-title" id="_1_0">Welcome!</div>
     <div class="article-part article-richtext article-body">
-      <p>This is a quickstart guide for you to learn about how to publishing a book.</p>
+      <p>This is a quickstart guide for you to learn how use the rapid publishing pipeline for making reports, papers, manuals, or books, etc.</p>
+      <p>The quick start guide is for publication managers and contributors.</p>
       <figure id="F98934631" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/b3bc6ba5-db38-4ec8-89db-45c029fdb485.png"></figure>
-      <p>We'll be using a real-time collaborative word processor, publishing as multi-format, and all using secure self-hosted open-source software. You can distribute your book as: A website, paged website, PDF, print-on-demand, eBook, and more.</p>
-      <p>As a bonus we'll throw in some of the latest 'enhanced publication' features from the world of open science to create greater visibility and resuse of your book.</p>
-      <p>Our commitment to security and privacy to keeping you personal information and content secure: The system can be self-hosted, is open-source, full GDPR / CCPA compliance, uses 2 factor authentication and OAuth, and secure revision histories using cryptographic IDs and persistent IDs so your readers always know they are on the latest book version. </p>
-      <figure id="F45597451" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none" data-caption-hidden="true"><img src="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png"></figure>
+      <p>We'll be working with an online collaborative word processor and using 'one click publishing' to multi-format — all using secure, self-hosted, open-source software. You can distribute your publication as: a website, paginated website, PDF, print-on-demand, eBook, and more.</p>
+      <p>As a bonus we'll throw in some of the latest 'enhanced publication' features from the world of open science to create greater visibility and resuse of your publication.</p>
+      <h2 id="H584803">Digital <strong>sovereignty</strong></h2>
+      <p>Our committed to security and privacy to keeping you personal information and content secure: The system can be self-hosted, is open-source, has full GDPR compliance, uses two factor authentication and OAuth authenication, and secure revision histories using cryptographic IDs and persistent IDs so your readers always know they are on the latest publication version. </p>
+      <figure id="F45597451" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="none" data-caption-hidden="true"><img src="images/60a0cd01-c4e1-467e-a517-a5ae77dbbbaf.png"></figure>
       <h2 id="H2087393">Features include</h2>
       <ul id="L58404751">
         <li>
-          <p>Collaborative work space, invite designers, editors, proofers, reviews to work on the book.</p>
+          <p>Collaborative work space: invite designers, editors, proofers, or reviews to work on the book.</p>
         </li>
         <li>
-          <p>Multi-format outputs.</p>
+          <p>Multi-format publication outputs: website, PDF, paginated web, eBook, and print-on-demand etc.</p>
         </li>
         <li>
-          <p>Automatic layouts, so no time consuming typesetting.</p>
+          <p>Automatic typesetting and layout design, so no time consuming typesetting.</p>
         </li>
         <li>
           <p>Single-source publishing: Make an edit and distribute to all formats.</p>
@@ -197,56 +226,92 @@
           <p>Citation manager.</p>
         </li>
         <li>
-          <p>Open-source software.</p>
+          <p>Open-source software and 'pipeline architecture' designed for system integration.</p>
         </li>
       </ul>
       <h2 id="H7757657">What you will learn here:</h2>
       <ol id="L90418291">
         <li>
-          <p>How to prepare your public Git repository for storing your book data.</p>
+          <p>How to prepare your public Git repository for storing your publication data, with an option to enable a website.</p>
         </li>
         <li>
-          <p>To setup your book's online collaborative word processor.</p>
+          <p>To setup your publication's online collaborative word processor.</p>
         </li>
         <li>
           <p>Invite your team to collaborate on writing online.</p>
         </li>
         <li>
-          <p>Publishing your book. </p>
+          <p>How to Publish. </p>
         </li>
         <li>
-          <p>Adding 'enhanced publication' features to transform your publication into a living book.</p>
+          <p>Adding 'enhanced publication' features to transform your work into a living publication.</p>
         </li>
       </ol>
-      <h2 id="H3159430">The steps used to create a book</h2>
-      <figure id="F18710661" class="aligned-center image-width-25" data-aligned="center" data-width="25" data-category="none" data-caption-hidden="true"><img src="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png"></figure>
+      <h2 id="H3159430">The steps used to create a publication</h2>
+      <figure id="F18710661" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none" data-caption-hidden="true"><img src="images/fec439eb-c4d6-4587-a4a2-affde7c45586.png"></figure>
       <ol id="L70094001">
         <li>
-          <p>Create a repository</p>
+          <p>Create a repository and website</p>
         </li>
         <li>
-          <p>Create a book</p>
+          <p>Create a book (collation of documents)</p>
         </li>
         <li>
-          <p>Ivite team</p>
+          <p>Invite the team</p>
         </li>
         <li>
-          <p>Multi-format publishing</p>
+          <p>How to publish multi-format</p>
         </li>
         <li>
-          <p>Enhanced publications</p>
+          <p>About enhanced publications</p>
         </li>
       </ol>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
-    <div class="article-part article-title" id="_2_0">Step 1: Make a Repository</div>
+    <div class="article-part article-title" id="_2_0">Step&nbsp;1: Make a Repository</div>
     <div class="article-part article-richtext article-body">
       <p>A repository is the data storage location of your outputted publication.</p>
-      <p>The reposoitories use Git<a href="#fn1" class="fn"><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span></a> technology which allows for versioning of your publication with crytographic IDs.</p>
-      <p>We save to GitHub and GitLab <span class="citation">(Perkel&nbsp; 2016)</span> – including <a href="GitLab.com" title="GitLab.com">GitLab.com</a> or another self-hosted instance of the GitLab Community Edition which is open-source software.</p>
+      <h2 id="H4018151">About</h2>
+      <p>The reposoitories use <a href="https://git-scm.com/" title="https://git-scm.com/">Git</a><a href="#fn1" class="fn"><span class="footnote-counter" data-chapter-counter="1" data-book-counter="1"></span></a> technology which allows for versioning of your publication.</p>
+      <p>We save to GitHub and GitLab <span class="citation">(Perkel&nbsp; 2016)</span>. GitLab can be used as <a href="GitLab.com" title="GitLab.com">GitLab.com</a> or as a self-hosted instance for private publications, or for staging publicatiobs. We use GitLab Community Edition for self-hosting which is open-source software. GitHub is not open-source but is useful for distribution and visibility.</p>
+      <figure id="F22345641" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/33ede307-f4a4-4660-92d2-92ccb1ef61d5.jpg">
+        <figcaption><span class="label"></span><span class="text">Git logo</span></figcaption>
+      </figure>
       <figure id="F44428261" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/5656f6ad-7ef0-4a57-9d81-9fc2ecfc77bc.png">
         <figcaption><span class="label"></span><span class="text">Octocat: GitHub's mascot</span></figcaption>
       </figure>
+      <figure id="F88034391" class="aligned-center image-width-50" data-aligned="center" data-width="50" data-category="none"><img src="images/6c70c3fd-31ab-446b-bfe3-5a7ee1e2f98f.png">
+        <figcaption><span class="label"></span><span class="text">GitLab logo</span></figcaption>
+      </figure>
+      <h2 id="H1473428">Step-by-step guide</h2>
+      <p>These instructions are for using GitHub. The principles are the same for GitLab.</p>
+      <p>These steps will allow you to create a repository to for your publication with the option for a website.</p>
+      <ol id="L7141501">
+        <li>
+          <p>Create an account</p>
+          <p>Go to the website <a href="https://github.com/" title="https://github.com/">GitHub.com</a> and create an account.</p>
+          <figure id="F22252491" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="none" data-caption-hidden="true"><img src="images/56369a22-3b5a-4691-aa78-51a8bd4bba37.png"></figure>
+        </li>
+        <li>
+          <p>Use a GitHub Template Repository</p>
+          <p></p>
+        </li>
+        <li>
+          <p>Turn on your website</p>
+        </li>
+        <li>
+          <p>Connect Fidus Writer to GitHub</p>
+        </li>
+        <li>
+          <p>Export your publication to GitHub</p>
+        </li>
+        <li>
+          <p>Add a README to your repo</p>
+        </li>
+        <li>
+          <p>You can allow team members to export to GitHub too — this will be covered in the invite team section.</p>
+        </li>
+      </ol>
       <p></p>
     </div>
     <section class="fnlist" role="doc-footnotes">
@@ -498,5 +563,13 @@
       <div class="csl-entry">GO FAIR, ed. 2016. “FAIR Principles.” 2016. https://www.go-fair.org/fair-principles/.</div>
       <div class="csl-entry">UNESCO. 2021. “UNESCO Recommendation on Open Science.” https://unesdoc.unesco.org/ark:/48223/pf0000379949?6=null&amp;queryId=N-EXPLORE-6186794e-ad06-46ba-9a10-4913967e2bd1.</div>
     </div>
+    <div class="article-part article-title" id="_7_0">Imprint</div>
+    <div class="article-part article-richtext article-body">
+      <h2 id="H8275517">Open licencing</h2>
+      <p>Illustrations <a href="https://blush.design/" title="https://blush.design/">Blush.design</a>. All Illustrations published on Blush can be used for free. License <a href="https://blush.design/license" title="https://blush.design/license">https://blush.design/license</a>.</p>
+      <p>Multi-format CSS Templates from <strong>Interpunct</strong> – <em>full stack graphic design,</em> <a href="https://interpunct.dev/" title="https://interpunct.dev/">Interpunct.dev</a>. 2022 Creative Commons: Attribution-ShareAlike 4.0 International&nbsp;<a href="https://creativecommons.org/licenses/by-sa/4.0/">(CC BY-SA 4.0)</a>.</p>
+      <p></p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
   </body>
 </html>
